@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌞 Weather app | by Saifullah</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="Enter your Location">
+            <button type="submit" class="bx bx-search sb" id="searchbtn"></button>
+        </div>
+        <br>
+        <div class="container1">
+            <!-- Existing content -->
+        </div>
+        <div id="toast-container"></div>
+
+
+        <div class="weather-box">
+            <div class="info-weather">
+                <div class="weather">
+                    <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-1024.png" alt="Image Loading" class="Image">
+                    <p class="temperature"><span></span></p>
+                    <p class="description">Broken Clouds</p>
+                </div>
+            </div>
+        </div>
+        <div class="weather-detail">
+            <div class="humidity">
+                <i class='bx bx-water'></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span></span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span></span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js" defer></script>
+</body>
+</html>
